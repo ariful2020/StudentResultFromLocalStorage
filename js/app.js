@@ -1,6 +1,7 @@
 
 const students_form = document.querySelector('#students-form');
 const std_list =document.querySelector('.std-list')
+const std_short_list =document.querySelector('.std-short-list')
 
 students_form.addEventListener('submit', function(e){
     e.preventDefault();
@@ -50,20 +51,20 @@ if(name.value == '' || faName.value == '' || sclass.value =='' || roll.value == 
    }
     
 
-    // name.value ="";
-    // faName.value = "";
-    // sclass.value ="";
-    // roll.value ="";
-    // reg.value ="";
-    // img.value ="";
-    // gender.value ="";
-    // ban.value ="";
-    // eng.value ="";
-    // math.value ="";
-    // sci.value ="";
-    // ssci.value ="";
-    // rel.value ="";
-
+    name.value ="";
+    faName.value = "";
+    sclass.value ="";
+    roll.value ="";
+    reg.value ="";
+    img.value ="";
+    gender.value ="";
+    ban.value ="";
+    eng.value ="";
+    math.value ="";
+    sci.value ="";
+    ssci.value ="";
+    rel.value ="";
+    std_short_list.style.display ="block"
     std_show ()
 })
 

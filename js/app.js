@@ -64,7 +64,7 @@ if(name.value == '' || faName.value == '' || sclass.value =='' || roll.value == 
     sci.value ="";
     ssci.value ="";
     rel.value ="";
-    std_short_list.style.display ="block"
+    // std_short_list.style.display ="block"
     std_show ()
 })
 

@@ -7,7 +7,7 @@ tbody, td, tfoot, th, thead, tr {
 }
 .std-short-list{
     position: relative;
-    display: none;
+    /* display: none; */
 }
 #result_view{
     position: absolute;
